@@ -1,7 +1,5 @@
 const { ObjectID } = require("mongodb");
 
-let objectId = require("mongodb").objectId;
-
 module.exports = function (app, db) {
   const collection = db.db("notesdb").collection("notes");
 
